@@ -1,0 +1,69 @@
+.search-box {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .search-box input[type="text"] {
+    width: 21%;
+    padding: 10px;
+    border: 2px solid purple; 
+    border-radius: 0;
+    font-size: 15px;
+  }
+  
+  .calories-total {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+  }
+  
+  .calories-total button {
+    padding: 7px 15px;
+    border-radius: 0px;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: black;
+  }
+
+  .food input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 2px solid purple; 
+    border-radius: 0px;
+    font-size: 16px;
+  }
+
+  .food {
+    background-color: #E3E9E2;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-top: 20px; 
+    padding: 10px;
+    border-radius: 0px; 
+  }
+  
+  img {
+    width: 80px;
+    height:80px;
+  }
+  
+  .add-button {
+    width: 30px;
+    height: 39px;
+    background-color: purple;
+    color: white;
+    border-radius: 0px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+  }
+  
+  .inputs {
+    display: flex;
+    align-items: center;
+  }
